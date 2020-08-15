@@ -52,8 +52,8 @@ tags:
 - 打开themes / layout / post
 - 底部增加一个div a 
 - https://github.com/XiaoJiaHu/xiaojiahu.github.io/edit/myblog/source/_posts/blog.md 
-    - 将_posts/blog.md  替换为<%- page.source %> 这个变量
-    
+- 将_posts/blog.md  替换为<%- page.source %> 这个变量
+
 ## Follow-up
 - hexo new fileName 	//创建一篇博客
 - hexo remove fileName	//删除一篇博客
