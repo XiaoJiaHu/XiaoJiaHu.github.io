@@ -3,6 +3,8 @@ title: blog
 date: 2020-08-15 11:37:55
 tags:
 ---
+# 初始化项目
+
 ## Creat Hexo cli
 - npm install -g hexo-cli
 - hexo init hexo-blog
