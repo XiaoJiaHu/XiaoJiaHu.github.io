@@ -49,4 +49,3 @@ tags:
 - hexo new fileName 	//创建一篇博客
 - hexo remove fileName	//删除一篇博客
 - hexo server           //打开本地连接
-
