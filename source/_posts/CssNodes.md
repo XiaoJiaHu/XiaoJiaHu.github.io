@@ -1,8 +1,10 @@
 ---
-title: Css
+title: CssNodes
 date: 2020-08-15 12:43:52
 tags:
 ---
+# Flex
+## Flex
 - 排布方向
 flex-direction: row   \ column   \ row-reverse   \ colume   \ reverse
 - 对齐方式
