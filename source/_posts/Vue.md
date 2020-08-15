@@ -3,7 +3,7 @@ title: Vue
 date: 2020-08-15 12:44:26
 tags:
 ---
-# Vue Day 1
+# Officer
 ## Base command
 - 记录a最新的值和旧的值
 vm.$watch('a',function(newVal,oldVal){	})
