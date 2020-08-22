@@ -23,6 +23,7 @@ _config 找到theme 改名 运行看是否生效 修改主题颜色 找到colors
 ## Instakk yarn
 git init
 git remote add origin git@github.com:XiaoJiaHu/xiaojiahu.github.io.git
+git remote rm
 npm install -g yarn
 yarn add hexo-deployer-git  //hexo-deployer-git是一个依赖 库 帮生成好的代码部署到一个具体的分支
 
