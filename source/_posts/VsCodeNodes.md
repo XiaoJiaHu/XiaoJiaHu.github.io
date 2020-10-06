@@ -28,6 +28,8 @@ tags:
 
 查找替换 ctrl h  / ctrl f
 
+打开文件夹 ctrl P
+
 ## npm 使用
 
 ## vue 使用
