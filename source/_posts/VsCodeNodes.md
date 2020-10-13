@@ -34,3 +34,5 @@ tags:
 
 ## vue 使用
 vue init webpack my-project 用webpack初始化一个vue项目
+
+关闭eslint 在webpack的base.config下 注释掉eslint的相关配置即可
