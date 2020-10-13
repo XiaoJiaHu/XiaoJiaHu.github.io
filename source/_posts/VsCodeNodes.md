@@ -31,8 +31,14 @@ tags:
 打开文件夹 ctrl P
 
 ## npm 使用
+报错 npm安装的包的版本问题
+
+## eslint
+关闭eslint 在webpack的base.config下 注释掉eslint的相关配置即可
 
 ## vue 使用
 vue init webpack my-project 用webpack初始化一个vue项目
 
-关闭eslint 在webpack的base.config下 注释掉eslint的相关配置即可
+
+
+
