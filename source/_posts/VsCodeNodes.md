@@ -44,4 +44,6 @@ ssh-keygen -t rsa -C "youremail@example.com" 生成公钥
 
 git remote rm origin 删除远程仓库
 
+git status 查看状态
+
 
