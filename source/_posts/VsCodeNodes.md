@@ -48,3 +48,9 @@ git status 查看状态
 
 git checkout index-swiper 切换分支
 
+git checkout master 切换到主分支
+
+git merge origin/index-swiper 本地分支更新
+
+git push 上传到远程的master
+
