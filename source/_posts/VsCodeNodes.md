@@ -39,6 +39,9 @@ tags:
 ## vue 使用
 vue init webpack my-project 用webpack初始化一个vue项目
 
+##git
+ssh-keygen -t rsa -C "youremail@example.com" 生成公钥
+
 
 
 
