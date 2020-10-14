@@ -45,12 +45,12 @@ ssh-keygen -t rsa -C "youremail@example.com" 生成公钥
 git remote rm origin 删除远程仓库
 
 git status 查看状态
-
+//分支上传并合并
+git pull
 git checkout index-swiper 切换分支
-
+...git push
 git checkout master 切换到主分支
-
 git merge origin/index-swiper 本地分支更新
-
 git push 上传到远程的master
+
 
