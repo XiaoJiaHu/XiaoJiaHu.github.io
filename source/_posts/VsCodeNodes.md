@@ -33,5 +33,6 @@ git checkout index-swiper 切换分支
 git checkout master 切换到主分支
 git merge origin/index-swiper 本地分支更新
 git push 上传到远程的master
+恢复本地删除的文件 git reset --hard
 
 
