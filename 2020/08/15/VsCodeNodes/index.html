@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="vs 基本命令行注释ctrl &#x2F; 块注释shift alt a  下方插入一行ctrl enter  上方插入一行ctrl shift enter  文件夹查找ctrl shift f  格式化代码shift alt f  代码行向左或向右缩进:   Ctrl+[ 、 Ctrl+] 切换到终端ctrl + ~  竖列选择shift + tab &#x2F;&#x2F;删除多行缩进 竖列选择alt shift  生成假">
+    <meta name="description" content="vs 基本命令行注释ctrl &#x2F;块注释shift alt a下方插入一行ctrl enter上方插入一行ctrl shift enter文件夹查找ctrl shift f格式化代码shift alt f代码行向左或向右缩进:   shift tab切换到终端ctrl + ~竖列选择alt shift生成假字lorem + tab查找替换 ctrl h  &#x2F; ctrl f打开文件夹 ctrl P n">
 <meta property="og:type" content="article">
 <meta property="og:title" content="VsCodeNodes">
 <meta property="og:url" content="http://yoursite.com/2020/08/15/VsCodeNodes/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="vs 基本命令行注释ctrl &#x2F; 块注释shift alt a  下方插入一行ctrl enter  上方插入一行ctrl shift enter  文件夹查找ctrl shift f  格式化代码shift alt f  代码行向左或向右缩进:   Ctrl+[ 、 Ctrl+] 切换到终端ctrl + ~  竖列选择shift + tab &#x2F;&#x2F;删除多行缩进 竖列选择alt shift  生成假">
+<meta property="og:description" content="vs 基本命令行注释ctrl &#x2F;块注释shift alt a下方插入一行ctrl enter上方插入一行ctrl shift enter文件夹查找ctrl shift f格式化代码shift alt f代码行向左或向右缩进:   shift tab切换到终端ctrl + ~竖列选择alt shift生成假字lorem + tab查找替换 ctrl h  &#x2F; ctrl f打开文件夹 ctrl P n">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-08-15T22:53:28.000Z">
-<meta property="article:modified_time" content="2020-10-14T11:56:30.415Z">
+<meta property="article:modified_time" content="2020-10-15T10:28:24.109Z">
 <meta property="article:author" content="faze">
 <meta name="twitter:card" content="summary">
     
@@ -76,7 +76,7 @@
     <span id="actions">
       <ul>
         
-        <li><a class="icon" href="/2020/10/14/hello-world/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        <li><a class="icon" href="/2020/10/15/hello-world/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
         
         <li><a class="icon" href="/2020/08/15/JsNodes/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
@@ -107,7 +107,7 @@
 
     </div>
     <div id="toc">
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#vs-%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4"><span class="toc-number">1.</span> <span class="toc-text">vs 基本命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#npm-%E4%BD%BF%E7%94%A8"><span class="toc-number">2.</span> <span class="toc-text">npm 使用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#eslint"><span class="toc-number">3.</span> <span class="toc-text">eslint</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#vue-%E4%BD%BF%E7%94%A8"><span class="toc-number">4.</span> <span class="toc-text">vue 使用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#git"><span class="toc-number">5.</span> <span class="toc-text">git</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#vs-%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4"><span class="toc-number">1.</span> <span class="toc-text">vs 基本命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#npm"><span class="toc-number">2.</span> <span class="toc-text">npm</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#eslint"><span class="toc-number">3.</span> <span class="toc-text">eslint</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#vue-%E4%BD%BF%E7%94%A8"><span class="toc-number">4.</span> <span class="toc-text">vue 使用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#git"><span class="toc-number">5.</span> <span class="toc-text">git</span></a></li></ol>
     </div>
   </span>
 </div>
@@ -146,25 +146,11 @@
   
 
   <div class="content" itemprop="articleBody">
-    <h2 id="vs-基本命令"><a href="#vs-基本命令" class="headerlink" title="vs 基本命令"></a>vs 基本命令</h2><p>行注释ctrl /</p>
-<p>块注释shift alt a </p>
-<p>下方插入一行ctrl enter </p>
-<p>上方插入一行ctrl shift enter </p>
-<p>文件夹查找ctrl shift f </p>
-<p>格式化代码shift alt f </p>
-<p>代码行向左或向右缩进:   Ctrl+[ 、 Ctrl+]</p>
-<p>切换到终端ctrl + ~ </p>
-<p>竖列选择shift + tab //删除多行缩进</p>
-<p>竖列选择alt shift </p>
-<p>生成假字lorem + tab </p>
-<p>查找替换 ctrl h  / ctrl f</p>
-<p>打开文件夹 ctrl P</p>
-<h2 id="npm-使用"><a href="#npm-使用" class="headerlink" title="npm 使用"></a>npm 使用</h2><p>报错 npm安装的包的版本问题</p>
+    <h2 id="vs-基本命令"><a href="#vs-基本命令" class="headerlink" title="vs 基本命令"></a>vs 基本命令</h2><p>行注释ctrl /<br>块注释shift alt a<br>下方插入一行ctrl enter<br>上方插入一行ctrl shift enter<br>文件夹查找ctrl shift f<br>格式化代码shift alt f<br>代码行向左或向右缩进:   shift tab<br>切换到终端ctrl + ~<br>竖列选择alt shift<br>生成假字lorem + tab<br>查找替换 ctrl h  / ctrl f<br>打开文件夹 ctrl P</p>
+<h2 id="npm"><a href="#npm" class="headerlink" title="npm"></a>npm</h2><p>报错 npm安装的包的版本问题</p>
 <h2 id="eslint"><a href="#eslint" class="headerlink" title="eslint"></a>eslint</h2><p>关闭eslint 在webpack的base.config下 注释掉eslint的相关配置即可</p>
 <h2 id="vue-使用"><a href="#vue-使用" class="headerlink" title="vue 使用"></a>vue 使用</h2><p>vue init webpack my-project 用webpack初始化一个vue项目</p>
-<h2 id="git"><a href="#git" class="headerlink" title="git"></a>git</h2><p>ssh-keygen -t rsa -C “<a href="mailto:&#121;&#111;&#x75;&#x72;&#x65;&#x6d;&#x61;&#105;&#x6c;&#64;&#101;&#120;&#x61;&#109;&#112;&#108;&#x65;&#x2e;&#x63;&#111;&#x6d;">&#121;&#111;&#x75;&#x72;&#x65;&#x6d;&#x61;&#105;&#x6c;&#64;&#101;&#120;&#x61;&#109;&#112;&#108;&#x65;&#x2e;&#x63;&#111;&#x6d;</a>“ 生成公钥</p>
-<p>git remote rm origin 删除远程仓库</p>
-<p>git status 查看状态<br>//分支上传并合并<br>git pull<br>git checkout index-swiper 切换分支<br>…git push<br>git checkout master 切换到主分支<br>git merge origin/index-swiper 本地分支更新<br>git push 上传到远程的master</p>
+<h2 id="git"><a href="#git" class="headerlink" title="git"></a>git</h2><p>ssh-keygen -t rsa -C “<a href="mailto:&#x79;&#x6f;&#x75;&#114;&#101;&#109;&#97;&#x69;&#x6c;&#x40;&#x65;&#x78;&#97;&#x6d;&#x70;&#108;&#x65;&#46;&#x63;&#111;&#x6d;">&#x79;&#x6f;&#x75;&#114;&#101;&#109;&#97;&#x69;&#x6c;&#x40;&#x65;&#x78;&#97;&#x6d;&#x70;&#108;&#x65;&#46;&#x63;&#111;&#x6d;</a>“ 生成公钥<br>git remote rm origin 删除远程仓库<br>git status 查看状态<br>//分支上传并合并<br>git pull<br>git checkout index-swiper 切换分支<br>…git push<br>git checkout master 切换到主分支<br>git merge origin/index-swiper 本地分支更新<br>git push 上传到远程的master</p>
 
   </div>
   <div>
@@ -193,7 +179,7 @@
     </div>
 
     <div id="toc-footer" style="display: none">
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#vs-%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4"><span class="toc-number">1.</span> <span class="toc-text">vs 基本命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#npm-%E4%BD%BF%E7%94%A8"><span class="toc-number">2.</span> <span class="toc-text">npm 使用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#eslint"><span class="toc-number">3.</span> <span class="toc-text">eslint</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#vue-%E4%BD%BF%E7%94%A8"><span class="toc-number">4.</span> <span class="toc-text">vue 使用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#git"><span class="toc-number">5.</span> <span class="toc-text">git</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#vs-%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4"><span class="toc-number">1.</span> <span class="toc-text">vs 基本命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#npm"><span class="toc-number">2.</span> <span class="toc-text">npm</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#eslint"><span class="toc-number">3.</span> <span class="toc-text">eslint</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#vue-%E4%BD%BF%E7%94%A8"><span class="toc-number">4.</span> <span class="toc-text">vue 使用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#git"><span class="toc-number">5.</span> <span class="toc-text">git</span></a></li></ol>
     </div>
 
     <div id="share-footer" style="display: none">
