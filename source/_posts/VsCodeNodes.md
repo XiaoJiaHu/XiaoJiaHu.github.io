@@ -21,7 +21,9 @@ tags:
 ## eslint
 关闭eslint 在webpack的base.config下 注释掉eslint的相关配置即可
 ## vue 使用
-vue init webpack my-project 用webpack初始化一个vue项目
+vue init webpack my-project 用webpack初始化一个vue2项目
+vue create myzhihu 创建一个vue3项目
+vue ui 图形化创建
 ## git
 ssh-keygen -t rsa -C "youremail@example.com" 生成公钥
 git remote rm origin 删除远程仓库
