@@ -26,6 +26,7 @@ vue create myzhihu 创建一个vue3项目
 vue ui 图形化创建
 ## git
 ssh-keygen -t rsa -C "youremail@example.com" 生成公钥
+git remote add origin git@github.com:michaelliao/learngit.git  添加远程仓库
 git remote rm origin 删除远程仓库
 git status 查看状态
 //分支上传并合并
