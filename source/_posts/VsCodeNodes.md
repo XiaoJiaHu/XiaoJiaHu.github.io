@@ -25,8 +25,12 @@ vue init webpack my-project 用webpack初始化一个vue2项目
 vue create myzhihu 创建一个vue3项目
 vue ui 图形化创建
 ## git
-ssh-keygen -t rsa -C "youremail@example.com" 生成公钥
-git remote add origin git@github.com:michaelliao/learngit.git  添加远程仓库
+1. 查看本机是否存在ssh cd ~/.ssh
+2. 创建ssh ssh-keygen
+3. 查看ssh cat ~/.ssh/id_rsa.pub
+4. 添加到远程仓库 git remote add origin git@github.com:michaelliao/learngit.git
+5.配置全局usename.useremail git config --global user.name "xxx" git config --global user.email "xxx@xxx"
+
 git remote rm origin 删除远程仓库
 git pull origin master 拉取远程仓库
 git push -u origin master 推上远程仓库
