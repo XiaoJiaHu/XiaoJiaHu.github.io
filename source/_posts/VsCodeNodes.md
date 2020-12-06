@@ -45,4 +45,7 @@ git merge origin/index-swiper 本地分支更新
 git push 上传到远程的master
 恢复本地删除的文件 git reset --hard
 
+##cnpm
+npm install -g cnpm -registry=https://registry.npm.taobao.org
+
 
