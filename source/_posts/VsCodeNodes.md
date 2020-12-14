@@ -31,6 +31,8 @@ vue ui 图形化创建
 4. 添加到远程仓库 git remote add origin git@github.com:michaelliao/learngit.git
 5.配置全局usename.useremail git config --global user.name "xxx" git config --global user.email "xxx@xxx"
 
+git log --pretty=oneline 显示记录
+git reset --hard 1243d 返回版本
 git remote rm origin 删除远程仓库
 git pull origin master 拉取远程仓库
 git push -u origin master 推上远程仓库
