@@ -48,4 +48,9 @@ git push 上传到远程的master
 ##cnpm
 npm install -g cnpm -registry=https://registry.npm.taobao.org
 
+##servers
+ssh -p 22 root@115.159.123.70 登陆服务器
+mkdir rmdir 创建删除目录
+pwd 查看当前目录
+
 
