@@ -52,5 +52,6 @@ npm install -g cnpm -registry=https://registry.npm.taobao.org
 ssh -p 22 root@115.159.123.70 登陆服务器
 mkdir rmdir 创建删除目录
 pwd 查看当前目录
-
-
+mkdir key_backup$ cp id_rsa* key_backup$ rm id_rsa* 清除原有ssh
+ssh-keygen -t rsa -C “您的邮箱地址” 生成ssh
+cat id_rsa.pub 查看ssh
