@@ -55,3 +55,4 @@ pwd 查看当前目录
 mkdir key_backup$ cp id_rsa* key_backup$ rm id_rsa* 清除原有ssh
 ssh-keygen -t rsa -C “您的邮箱地址” 生成ssh
 cat id_rsa.pub 查看ssh
+rm -rf 目录名字 删除带有文件的文件夹
