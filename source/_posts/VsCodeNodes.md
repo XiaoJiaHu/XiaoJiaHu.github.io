@@ -61,3 +61,5 @@ rm -rf 目录名字 删除带有文件的文件夹
 netstat -ntlp | grep [port] 查看端口号
 kill -9 PID 结束端口号
 nohup node prod.server.js & 永久开服务
+systemctl stop firewalld    关闭防火墙
+systemctl status firewalld 查看防火墙
