@@ -58,3 +58,6 @@ mkdir key_backup$ cp id_rsa* key_backup$ rm id_rsa* 清除原有ssh
 ssh-keygen -t rsa -C “您的邮箱地址” 生成ssh
 cat id_rsa.pub 查看ssh
 rm -rf 目录名字 删除带有文件的文件夹
+netstat -ntlp | grep [port] 查看端口号
+kill -9 PID 结束端口号
+nohup node prod.server.js & 永久开服务
