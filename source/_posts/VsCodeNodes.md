@@ -25,6 +25,7 @@ vue init webpack my-project 用webpack初始化一个vue2项目
 vue create myzhihu 创建一个vue3项目
 vue ui 图形化创建
 ## git
+ssh-keygen -t rsa -C "youremail@example.com" 创建ssh
 1. 查看本机是否存在ssh cd ~/.ssh
 2. 创建ssh ssh-keygen
 3. 查看ssh cat ~/.ssh/id_rsa.pub
