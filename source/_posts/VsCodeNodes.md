@@ -64,3 +64,6 @@ kill -9 PID 结束端口号
 nohup node prod.server.js & 永久开服务
 systemctl stop firewalld    关闭防火墙
 systemctl status firewalld 查看防火墙
+
+##ccollu
+npm i node-sass --sass_binary_site=https://npm.taobao.org/mirrors/node-sass/
