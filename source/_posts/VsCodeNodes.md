@@ -67,3 +67,9 @@ systemctl status firewalld 查看防火墙
 
 ##ccollu
 npm i node-sass --sass_binary_site=https://npm.taobao.org/mirrors/node-sass/
+
+##google
+chrome://sync-internals/
+Stop Sync (Keep Data)
+Request Start
+
