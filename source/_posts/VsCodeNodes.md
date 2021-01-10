@@ -66,6 +66,9 @@ systemctl stop firewalld    关闭防火墙
 systemctl status firewalld 查看防火墙
 
 ##ccollu
+npm代理
+npm config set registry https://registry.npm.taobao.org
+
 npm i node-sass --sass_binary_site=https://npm.taobao.org/mirrors/node-sass/
 
 ##google
