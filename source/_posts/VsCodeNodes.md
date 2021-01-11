@@ -2,7 +2,9 @@
 title: VsCodeNodes
 date: 2020-08-15 22:53:28
 tags:
----
+---df
+vscode权限问题
+set-ExecutionPolicy RemoteSigned  
 ## vs 基本命令
 行注释ctrl /
 块注释shift alt a 
