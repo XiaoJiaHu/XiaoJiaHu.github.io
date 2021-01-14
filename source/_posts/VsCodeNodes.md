@@ -3,6 +3,10 @@ title: VsCodeNodes
 date: 2020-08-15 22:53:28
 tags:
 ---df
+vue devtools
+<script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.10/vue.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
 vscode权限问题
 set-ExecutionPolicy RemoteSigned  
 ## vs 基本命令
@@ -79,4 +83,5 @@ npm i node-sass --sass_binary_site=https://npm.taobao.org/mirrors/node-sass/
 chrome://sync-internals/
 Stop Sync (Keep Data)
 Request Start
+
 
